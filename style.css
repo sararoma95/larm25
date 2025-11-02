@@ -1350,7 +1350,7 @@ This is main CSS file that contains custom style rules used in this template
   padding: 40px;
   margin-right: 60px;
   transition: 0.5s all ease-out;
-  width: 550px;
+  width: 200px;
   position: absolute;
   z-index: 1;
 }
@@ -2311,6 +2311,29 @@ body.nav-active .nav__block .nav__block-item {
   #about img.single-image {
     height: auto;
   }
+}
+/*----- Software Section
+--------------------------------------------------------------*/
+.software-item {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.software-logo {
+  width: 80px;
+  height: auto;
+  margin-bottom: 15px;
+  transition: transform 0.3s ease;
+}
+
+.software-logo:hover {
+  transform: scale(1.1);
+}
+
+.software-item h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-top: 10px;
 }
 
 /*----- Services Section
