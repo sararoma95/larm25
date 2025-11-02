@@ -1350,7 +1350,7 @@ This is main CSS file that contains custom style rules used in this template
   padding: 40px;
   margin-right: 60px;
   transition: 0.5s all ease-out;
-  width: 150px;
+  width: 550px;
   position: absolute;
   z-index: 1;
 }
@@ -2001,7 +2001,7 @@ body.nav-active .nav__block .nav__block-item {
 }
 
 .main-slider .slick-slide {
-  height: 90vh;
+  height: 40vh;
 }
 
 .main-slider .slider-item {
@@ -2016,7 +2016,7 @@ body.nav-active .nav__block .nav__block-item {
   width: 50%;
   text-align: center;
   margin: 0 auto;
-  margin-top: 300px;
+  margin-top: 150px;
 }
 
 .main-slider .banner-content h2.banner-title {
