@@ -2320,20 +2320,20 @@ body.nav-active .nav__block .nav__block-item {
 }
 
 .software-logo {
-  width: 80px;
-  height: auto;
-  margin-bottom: 15px;
-  transition: transform 0.3s ease;
+  width: 80px;               /* Adjust as needed */
+  height: 80px;              /* Ensures same box size */
+  object-fit: contain;       /* Keeps proportions */
+  object-position: center;
+  display: block;
+  margin: 0 auto 10px;       /* Centers logo and adds space */
+  background-color: transparent;
 }
 
-.software-logo:hover {
-  transform: scale(1.1);
-}
-
-.software-item h3 {
-  font-size: 1.1rem;
-  font-weight: 600;
-  margin-top: 10px;
+@media (max-width: 768px) {
+  .software-logo {
+    width: 60px;
+    height: 60px;
+  }
 }
 
 /*----- Services Section
