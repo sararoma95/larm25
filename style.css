@@ -664,13 +664,13 @@ abbr {
 }
 
 .text-lead {
-  font-size: 120%;
+  font-size: 100%;
   line-height: 1.7em;
 }
 
 .text-lead strong {
-  font-size: 115%;
-  font-weight: 500;
+  font-size: 100%;
+  font-weight: 800;
 }
 
 .text-muted {
@@ -687,6 +687,30 @@ abbr {
   text-shadow: none;
   background-color: transparent;
   border: 0;
+}
+
+
+
+
+/* Style links to make them clearly clickable */
+p a {
+  color: #0077b6; /* subtle but distinct blue tone */
+  text-decoration: none; /* remove underline by default */
+  font-weight: 600;
+  transition: color 0.2s ease, border-bottom 0.2s ease;
+  border-bottom: 1px solid transparent;
+}
+
+/* Add hover feedback */
+p a:hover {
+  color: #023e8a; /* darker blue for hover */
+  border-bottom: 1px solid #023e8a;
+}
+
+/* Optional: make paragraphs slightly softer in tone for readability */
+p {
+  color: #444;
+  line-height: 1.6;
 }
 
 /*------------------------------------------------
