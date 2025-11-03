@@ -2908,7 +2908,7 @@ footer#footer {
   margin-right: 60px;
 }
 
-.testimonial-block {
+/* .testimonial-block {
   margin-top: 50px;
 }
 
@@ -2923,7 +2923,33 @@ footer#footer {
 .testimonial-block .testimonial-author .name {
   font-size: 1.4em;
   font-weight: 900;
-}
+} */
+/* Ensure testimonial text is visible on dark background */
+  .testimonial-block {
+    color: #f5f5f5; /* light gray-white for readability */
+  }
+
+  .testimonial-block p,
+  .testimonial-block .author-title {
+    color: #e0e0e0; /* softer white for body and subtitle text */
+  }
+
+  .testimonial-block .name a {
+    color: #ffffff; /* pure white for visibility */
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.2s ease, text-decoration 0.2s ease;
+  }
+
+  .testimonial-block .name a:hover {
+    color: #ffd166; /* subtle warm highlight on hover */
+    text-decoration: underline;
+  }
+
+  .testimonial-block .section-title,
+  .testimonial-block .title span {
+    color: #ffffff;
+  }
 
 @media only screen and (max-width: 580px) {
   img.review-image {
